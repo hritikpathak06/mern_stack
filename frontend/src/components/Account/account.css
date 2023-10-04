@@ -1,0 +1,60 @@
+.conatainer{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.leftContainer{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftContainer > img{
+    width: 500px;
+    border-radius: 50%;
+}
+
+.rightContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rightContainer > h1{
+    font-size: 2.7rem;
+    color: red;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+}
+
+.rightContainer > p{
+    font-size: 2.1rem;
+    color: black;
+    font-weight: bolder;
+    margin-bottom: 2.3rem;
+}
+
+.role{
+    color: darkgoldenrod;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.btnContainer{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.btnContainer > button{
+    padding: 1rem 5rem;
+    margin: 2rem;
+    border: none;
+    background-color: tomato;
+    color: white;
+    font-size: 1rem;
+}

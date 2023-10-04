@@ -1,0 +1,30 @@
+.productsHeading{
+  margin: 2rem auto;
+  width: 15rem;
+  padding: 2rem;
+  color: rgba(0, 0, 0, 0.578);
+  font-size: 1.7rem;
+  font-weight: bolder;
+  border-bottom: 2px solid grey;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 20rem;
+}
+
+.filterBox{
+    width: 10rem;
+    position: absolute;
+    top: 15rem;
+    left: 4rem;
+    position: fixed;
+}
+
+
+@media screen and (max-width:600px){
+    .filterBox{
+        position: inherit;
+    }
+}

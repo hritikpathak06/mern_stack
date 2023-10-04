@@ -1,0 +1,134 @@
+.cartPage{
+ padding:5rem;
+}
+
+.cartHeader{
+    background-color: tomato;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr;
+    color: white;
+    font-size: 1.4rem;
+    margin: auto;
+    font-weight: bolder;
+    box-sizing: border-box;
+}
+
+.cartHeader > p{
+    margin: 10px;
+}
+
+.cartHeader > p:last-child{
+    text-align: end;
+}
+
+.cartContainer{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr;
+}
+
+.cartItemsCard{
+    display: flex;
+    padding: 1rem;
+    height: 10rem;
+    width: 60%;
+    border: 2px solid black;
+    margin-top: 2rem;
+    align-items: flex-start;
+}
+
+.cartInput{
+    height: 10rem;
+    display: flex;
+    align-items: center;
+}
+
+.cartInput > button{
+    border: none;
+    background-color: rgba(0, 0, 0, 0.353);
+    color: white;
+    padding: 0.4rem;
+}
+
+.cartInput > input{
+    width: 10rem;
+    text-align: center;
+}
+
+.cartSubtotal{
+    display: flex;
+    align-items: center;
+    /* margin: auto; */
+    font-size: 2rem;
+    color: tomato;
+    font-weight: bolder;
+    /* margin: auto; */
+    justify-content: flex-end;
+    height: 10rem;
+}
+
+.cartTotal{
+    display: grid;
+    grid-template-columns: 2fr 1.2fr;
+}
+
+.cartProfit{
+    border-top: 3px solid tomato;
+    margin: 1rem 5rem;
+    box-sizing: border-box;
+    display: flex;
+    padding: 1.2rem;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.checkOutBtn{
+    display: flex;
+    justify-content: flex-end;
+    margin: 1rem 5rem;
+}
+
+.checkOutBtn > button{
+    border: none;
+    padding: 1rem 3rem;
+    background-color: tomato;
+    color: white;
+    font-size: 1rem;
+    border-radius: 20px;
+}
+
+
+.cartItemsCard > img{
+    width: 5rem;
+}
+
+.cartItemsCard > div{
+    display: flex;
+    flex-direction: column;
+    margin: 0 2rem
+}
+
+.cartItemsCard > div > a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: black;
+    text-transform: uppercase;
+    color: tomato;
+}
+
+.cartItemsCard > div > span{
+    font-size: 1rem;
+    color: burlywood;
+    font-weight: bold;
+}
+
+.cartItemsCard > div > p{
+    font-size: 1.4rem;
+    font-weight: bolder;
+    color: red;
+    margin: 1rem 0;
+}

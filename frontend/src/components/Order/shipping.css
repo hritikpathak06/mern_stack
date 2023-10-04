@@ -1,0 +1,82 @@
+.shippingContainer{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+.shippingBox{
+    width: 25vw;
+    height: 90vh;
+    background-color: white;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.shippingHeading{
+    text-align: center;
+    color: black;
+    font-size: 1.3vmax;
+    width: 50%;
+    font-weight: bolder;
+    border-bottom: 2px solid grey;
+    margin: auto;
+    padding: 1.4vmax;
+}
+
+.shippingInfo{
+    display: flex;
+    height: 80%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 2vmax;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+}
+
+.shippingInfo > div{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.shippingInfo > div > input,
+.shippingInfo > div > select
+{
+    padding: 1vmax 4vmax;
+    padding-right: 1vmax;
+    border-radius: 4px;
+    font-size: 0.9vmax;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid grey;
+
+}
+
+.shippingInfo > div > svg{
+    position: absolute;
+    font-size: 1.3vmax;
+    color: black;
+    font-weight: bolder;
+}
+
+.shippingBtn{
+    border: none;
+    background-color: tomato;
+    color: white;
+    font-size: 3vmax;
+    padding: 1vmax;
+    cursor: pointer;
+    margin: auto;
+    outline: none;
+    width: 100%;
+    border-radius: 30px;
+    text-align: center;
+    align-items: center;
+    font-weight: bolder;
+    margin-top: 2vmax;
+}
